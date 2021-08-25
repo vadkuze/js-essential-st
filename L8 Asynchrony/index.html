@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script async src="./asynchrony.js"></script>
+    <style>
+        html { 
+            font-size: 16px
+        }
+
+        #products{ 
+            display: flex;
+            flex-wrap: wrap;
+            /* flex-direction: column; */
+            justify-content: center;
+
+        }
+
+        .product {
+            width: 300px;
+            margin: 7px;
+            padding: 7px 15px;
+            border-radius: 7px;
+            box-shadow: 1px 1px 3px gray;
+            cursor: pointer;
+        }
+
+        .product:hover {
+            box-shadow: 1px 2px 6px gray;
+        }
+
+        .product-price{
+            font-size: 1.25rem;
+        }
+
+        .product-title.active {
+            color: rgb(250, 143, 143);
+        }
+
+    </style>
+</head>
+<body>
+    <section id="products">
+        <!-- <div class="product">
+            <h3 class="product-title">title</h3>
+            <div class="product-category">
+                <b>category</b>
+            </div>
+            <hr>
+            <div class="product-price">
+                <i>price</i>
+            </div>
+            <p class="product-description">
+                description
+            </p>
+        </div> -->
+    </section>
+</body>
+</html>
