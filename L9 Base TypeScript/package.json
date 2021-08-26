@@ -1,0 +1,20 @@
+{
+  "name": "front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "dev": "webpack serve --mode=development",
+    "build": "webpack build --mode=production"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "html-webpack-plugin": "^5.3.1",
+    "ts-loader": "^8.1.0",
+    "webpack": "^5.31.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
